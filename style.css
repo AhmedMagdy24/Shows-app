@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    color: #ffffff;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 2rem;
+}
+
+input {
+    width: 25rem;
+    height: 2rem;
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+}
+
+.results-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    
+  
+}
+
+.show-grid {
+    width: 30rem;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.my-show-summary{
+    text-align: left;
+}
+
+.my-show-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+img{
+    width: 250px;
+}
+
+
